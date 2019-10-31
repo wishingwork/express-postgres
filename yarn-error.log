@@ -1,0 +1,43 @@
+Arguments: 
+  /Users/John/.nvm/versions/node/v8.15.1/bin/node /Users/John/.yarn/bin/yarn.js start
+
+PATH: 
+  /miniconda3/bin:/miniconda3/condabin:/Users/John/.yarn/bin:/Users/John/.config/yarn/global/node_modules/.bin:/Users/John/.nvm/versions/node/v8.15.1/bin:/Users/John/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Users/John/Projects/BetterForecast/Build_WRF/LIBRARIES/netcdf-c/bin:/Users/John/Projects/BetterForecast/Build_WRF/LIBRARIES/mpich/bin:/Users/John/Projects/BetterForecast/Build_WRF/LIBRARIES/netcdf/bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  8.15.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/John/Projects/Testing/express-project/package.json: Unexpected token } in JSON at position 269
+      at JSON.parse (<anonymous>)
+      at /Users/John/.yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/Users/John/.yarn/lib/cli.js:304:30)
+      at /Users/John/.yarn/lib/cli.js:315:13
+      at <anonymous>
+
+npm manifest: 
+  {
+    "name": "express-project",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "description": "Learn for express",
+    "author": "JohnChen",
+    "scripts": {
+      "start": "node src/index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
